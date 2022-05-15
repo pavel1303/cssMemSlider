@@ -9,25 +9,16 @@
 </head>
 <body class="body">
   <div class="container">
-    <h1>CSS Mem Slider</h1>
+    <h1 class="title">CSS Mem Slider</h1>
     <div class="slider">
-      <div class="slider-nav">
-        <label class="slider-nav-item" for="slide1"></label>
-        <label class="slider-nav-item" for="slide2"></label>
-        <label class="slider-nav-item" for="slide3"></label>
-        <label class="slider-nav-item" for="slide4"></label>
-        <label class="slider-nav-item" for="slide5"></label>
-      </div>
-
+      <input type="radio" name="toggler" id="slide1" checked>
+      <input type="radio" name="toggler" id="slide2">
+      <input type="radio" name="toggler" id="slide3">
+      <input type="radio" name="toggler" id="slide4">
+      <input type="radio" name="toggler" id="slide5">
       <div class="slider-items">
 
-        <input type="radio" name="toggler" id="slide1">
-        <input type="radio" name="toggler" id="slide2">
-        <input type="radio" name="toggler" id="slide3">
-        <input type="radio" name="toggler" id="slide4">
-        <input type="radio" name="toggler" id="slide5">
-
-        <div class="slider-item">
+        <div class="slider-item slide-start">
           <img src="img/1.jpg" alt="1">
         </div>
         <div class="slider-item">
@@ -41,6 +32,26 @@
         </div>
         <div class="slider-item">
           <img src="img/5.jpg" alt="5">
+        </div>
+      </div>
+
+      <div class="slider-footer">
+        <div class="slider-descriptions">
+          <div class="slider-descriptions-container">
+            <div class="slider-description-item first-descripton"><span>Lorem, ipsum dolor.</span></div>
+            <div class="slider-description-item"><span>Lorem ipsum dolor sit.</span></div>
+            <div class="slider-description-item"><span>Lorem, ipsum.</span></div>
+            <div class="slider-description-item"><span>Lorem ipsum dolor sit amet.</span></div>
+            <div class="slider-description-item"><span>lorem</span></div>
+            <div class="slider-description-item"><span></span></div>
+          </div>
+        </div>
+        <div class="slider-nav">
+          <label class="slider-nav-item" for="slide1"><span></span></label>
+          <label class="slider-nav-item" for="slide2"><span></span></label>
+          <label class="slider-nav-item" for="slide3"><span></span></label>
+          <label class="slider-nav-item" for="slide4"><span></span></label>
+          <label class="slider-nav-item" for="slide5"><span></span></label>
         </div>
       </div>
     </div>
