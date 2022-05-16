@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 html{
-  font-size: 10px;
+  font-size: 62.5%;
 }
 .body {
   width: 100%;
@@ -52,7 +52,7 @@ html{
 }
 .slider-nav-item {
   width: 20%;
-  height: 2rem;
+  height: 80%;
   cursor: pointer;
   display: flex;
   align-items: center;
@@ -64,11 +64,14 @@ html{
   width: 60%;
   height: 0.5rem;
   border-radius: 0.5rem;
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.2);
   transition: all 0.9s;
 }
 .slider-nav-item:hover span {
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0,1);
+}
+.slider-nav-item:active span {
+  background-color: rgba(255, 68, 68, 0.8);
 }
 
 .slider-footer{
