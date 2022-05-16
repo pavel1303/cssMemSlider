@@ -22,11 +22,16 @@ html{
 }
 
 .title{
-  font-size: 3rem;
+  font-size: 5rem;
+}
+@media screen and (max-width: 800px) {
+  .title{
+    font-size: 3rem;
+  }
 }
 .slider {
   width: 90%;
-  max-width: 52rem;
+  max-width: 80rem;
   height: 100%;
   border: 1rem groove rgba(30, 93, 210, 0.493);
   overflow: hidden;
@@ -100,10 +105,15 @@ html{
   padding-left: 1rem;
   width: 16.66%;
   height: 100%;
-  font-size: 1.6rem;
+  font-size: 2.6rem;
   display: flex;
   align-items: center;
   transition: all 0.9s;
+}
+@media screen and (max-width: 800px) {
+  .slider-description-item {
+    font-size: 1.6rem;
+  }
 }
 .slider-description-item span {
   display: block;
