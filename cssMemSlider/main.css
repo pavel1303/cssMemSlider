@@ -71,7 +71,7 @@ html{
   background-color: rgba(0, 0, 0,1);
 }
 .slider-nav-item:active span {
-  background-color: rgba(255, 68, 68, 0.8);
+  background-color: rgb(112, 255, 68);
 }
 
 .slider-footer{
